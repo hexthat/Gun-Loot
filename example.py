@@ -27,4 +27,4 @@ def crate(amount, lowtier, hightier, wpd, wpu, name):
 
 # crate(amount, lowtier, hightier, wpd, wpu, name)
 crate(3, 0.1, 0.5, 0, 6, rname())
-crate(3, 0.5, 1.5, 0, 6, rname())
+crate(3, 0.5, 1.5, 0, 6, wname())
