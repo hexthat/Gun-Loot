@@ -26,7 +26,7 @@ class Loot:
       self.name = 'scrap T' + str(round(tier, 1))
       
     if type not in range(0,6):
-      self.name += ' ' + str(round(tier, 1))
+      self.name += ' T' + str(round(tier, 1))
       self.acc = random.randrange(1, 87) / 10
       self.reload = round((random.randrange(10, 30) / (2 * tier)), 2)
       self.dmg = round((random.randrange(1,50) + pow(random.randrange(1,8), tier)))
